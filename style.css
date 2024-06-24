@@ -1,4 +1,11 @@
 
+
+.custhr{
+    background-color: #be2121;
+    height: #be2121;
+    border: ;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -33,7 +40,7 @@
 }
 
 .nav-links a:hover {
-    color:chartreuse;
+    color:green;
 }
 
 .search-input {
