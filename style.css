@@ -161,6 +161,10 @@ a:hover:before {
     .nav-links a.icon {
         float: right;
         display: block;
+    .navbar a{
+        display: block;
+
+    }
     }
 }
 
