@@ -17,6 +17,7 @@ hr{
 .nav-links{
     font-family: Arial, Helvetica, sans-serif;
     color: #686767;
+    overflow: hidden;
 }
 
 .navbar{
@@ -135,6 +136,11 @@ a:hover:before {
     font-weight: bold;
 }
 
+
+{
+    
+}
+
 .search-input {
     padding: 5px 10px;
     font-size: 16px;
@@ -157,8 +163,8 @@ a:hover:before {
 /*menu suspenso navbar*/
 
 @media screen and (max-width: 600px) {
-    .nav-links a { display: none; }
-    .nav-links a.icon {
+    .navbar a { display: none; }
+    .navbar a.icon {
         float: right;
         display: block;
     .navbar a{
@@ -169,8 +175,8 @@ a:hover:before {
 }
 
 @media screen and (max-width: 600px) {
-    .nav-links.responsive { position: relative; }
-    .nav-links.responsive .icon {
+    .navbar.responsive { position: relative; }
+    .navbar.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -184,9 +190,3 @@ a:hover:before {
     }
 }
 
-
-
-
-.navbar .icon {
-    display: none;
-}
