@@ -125,6 +125,7 @@ a:hover:before {
     text-decoration: none;
     color: #686767;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .nav-links li {
@@ -133,7 +134,7 @@ a:hover:before {
 
 .nav-links a:hover {
     color: #0d3d69;
-    font-weight: bold;
+
 }
 
 
