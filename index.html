@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
                 <div class="nomelogo"><p>ImpulseHub</p></div>
             </div>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="myNavbar">
                 <div class="navone">
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Serviços</a></li>
@@ -25,6 +26,9 @@
             </div>
             <a href=""><button> Login</button></a>
                <!-- <li><a href="#">Login</a></li>-->
+               <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+                &#9776; <!-- Ícone de hambúrguer -->
+            </a>
 
             </ul>
         
@@ -51,7 +55,16 @@
 
     </footer>
 
-
+    <script>
+        function toggleNavbar() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "nav-links") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-links";
+            }
+        }
+    </script>
 
 </body>
 </html>

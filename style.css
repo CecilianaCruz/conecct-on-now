@@ -16,7 +16,7 @@ hr{
 
 .nav-links{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(246, 249, 253);
+    color: #686767;
 }
 
 .navbar{
@@ -30,6 +30,7 @@ hr{
 }
 
 /* efeito sublinhado:*/
+/*
 .navone a:before {
         content: "";
         position: absolute;
@@ -45,15 +46,17 @@ hr{
         transition: all 0.3s ease-in-out 0s;
 }
 
-
+*/
 /* efeito sublinhado:*/
 
+/*
 .navone a {
     position: relative;
     color: #fff;
     text-decoration: none;  
 }
-  
+*/
+
 .nav-links button{
     background-color: white;
     margin-left: 10px;
@@ -101,7 +104,7 @@ a:hover:before {
 .nomelogo{
     margin-left: 70PX;
     font-family: arial black;
-    color: #49504a;
+    color: #6b6d6b;
     font-size: 20px;
 }
 
@@ -119,7 +122,7 @@ a:hover:before {
 
 .nav-links a {
     text-decoration: none;
-    color: #808381;
+    color: #686767;
     font-size: 16px;
 }
 
@@ -128,7 +131,8 @@ a:hover:before {
 }
 
 .nav-links a:hover {
-    color: #0d3d69;;
+    color: #0d3d69;
+    font-weight: bold;
 }
 
 .search-input {
@@ -148,4 +152,32 @@ a:hover:before {
     background-color: #0d3d69;
     color: white;
     cursor: pointer;
+}
+
+/*menu suspenso navbar*/
+
+@media screen and (max-width: 600px) {
+    .navbar a { display: none; }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive { position: relative; }
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.navbar .icon {
+    display: none;
 }
