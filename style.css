@@ -1,16 +1,21 @@
 
 
 .custhr{
-    border-color: #ffffff;
-    color: #ffffff;
+    border: none;
+    background-color: #d4d4d4;
+
+    height: 0.2px;
 }
 
 hr{
-    border-color: #ffffff;
+    border: none;
+    background-color: #d4d4d4;
+
+    height: 0.2px;
 }
 
 .nav-links{
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(246, 249, 253);
 }
 
@@ -20,8 +25,12 @@ hr{
     padding: 0 25px;
 }
 
+.navone{
+    display: flex;
+}
+
 /* efeito sublinhado:*/
-.nav-links a:before {
+.navone a:before {
         content: "";
         position: absolute;
         width: 100%;
@@ -39,7 +48,7 @@ hr{
 
 /* efeito sublinhado:*/
 
-.nav-links a {
+.navone a {
     position: relative;
     color: #fff;
     text-decoration: none;  
@@ -48,12 +57,15 @@ hr{
 .nav-links button{
     background-color: white;
     margin-left: 10px;
+    border-width: 1PX;
     border-color: #11548f;
     border-radius: 5px;
-    font-family: fantasy;
-    color:#49504a;
+    font-family: arial black;
+    color:#11548f   ;
     height: 35px;
-    width: 60px;
+    width: 65px;
+    font-size: 15px;
+    transition: 0.5s;
 }
 
 
@@ -61,10 +73,12 @@ hr{
     background-color: #11548f;
     color: white;
     border:none;
-}
+    cursor: pointer;
     
+}
 
-.nav-links button a:hover{
+
+.nav-links button:hover{
     color: white;
 }
 
@@ -72,6 +86,7 @@ a:hover:before {
         visibility: visible;
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
+        
 }
 
 
@@ -85,7 +100,7 @@ a:hover:before {
 
 .nomelogo{
     margin-left: 70PX;
-    font-family: fantasy;
+    font-family: arial black;
     color: #49504a;
     font-size: 20px;
 }
@@ -104,7 +119,7 @@ a:hover:before {
 
 .nav-links a {
     text-decoration: none;
-    color: #5b5f5c;
+    color: #808381;
     font-size: 16px;
 }
 
@@ -113,7 +128,7 @@ a:hover:before {
 }
 
 .nav-links a:hover {
-    color:0d3d69;
+    color: #0d3d69;;
 }
 
 .search-input {
