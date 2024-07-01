@@ -157,26 +157,31 @@ a:hover:before {
 /*menu suspenso navbar*/
 
 @media screen and (max-width: 600px) {
-    .navbar a { display: none; }
-    .navbar a.icon {
+    .nav-links a { display: none; }
+    .nav-links a.icon {
         float: right;
         display: block;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .navbar.responsive { position: relative; }
-    .navbar.responsive .icon {
+    .nav-links.responsive { position: relative; }
+    .nav-links.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
+        
     }
-    .navbar.responsive a {
+    .nav-links.responsive a {
         float: none;
         display: block;
         text-align: left;
+        
     }
 }
+
+
+
 
 .navbar .icon {
     display: none;
