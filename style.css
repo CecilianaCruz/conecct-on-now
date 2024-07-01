@@ -1,9 +1,12 @@
 
 
 .custhr{
-    background-color: #be2121;
-    height: #be2121;
+    border-color: #ffffff;
+    color: #ffffff;
+}
 
+hr{
+    border-color: #ffffff;
 }
 
 .nav-links{
