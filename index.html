@@ -32,6 +32,8 @@
     
             .nav-links .icon {
                 display: none;
+                border: 1px solid rgb(85, 85, 85); /* Adiciona borda */
+                border-radius: 5px; /* Arredonda os cantos */
             }
     
             @media screen and (max-width: 600px) {
@@ -41,11 +43,30 @@
                     display: block;
                 }
                 .navbar{
-                    display: block;
+                    display: flex;
+                    text-align: center;
                 }
                 .nav-links{
-                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: auto;
                 }
+                header{
+                    align-items: center;
+                    justify-content: center;
+      
+                }
+                .navbar-links.responsive .logo {
+                display: none; /* Esconde a logo quando o menu está ativo */
+            }
+            
+            .navbar .nav-links.responsive{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                } 
+                
             }
     
             @media screen and (max-width: 600px) {
@@ -64,15 +85,32 @@
                         display: block;
                     }
                 .navbar{
-                    display: block;
+                    display: flex;
                     align-items: center;
                     justify-content: center;
                 }     
+
+                .navbar .nav-links.navbar-links.responsive{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                } 
                 
                 ul{
                     display: block;
                 }
 
+                .navbar .logo{
+                    display: none;
+                }
+                .nav-links .logo{
+                    display:flex;
+                }
+
+
+                .nav-links.responsive .logo {
+                display: none; /* Esconde a logo quando o menu está ativo */
+            }
                 }
             
         </style>
@@ -88,11 +126,15 @@
             </div>
 
             <ul class="nav-links" id="myNavbar">
+                <div class="logo">
+                    <div class="nomelogo"><p>ImpulseHub</p></div>
+                </div>
                 <div class="navone">
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Torne-se um profissional</a></li>
                 <li><a href="#">Contatos</a></li>
+                
             </div>
             <a href=""><button> Login</button></a>
                <!-- <li><a href="#">Login</a></li>-->
