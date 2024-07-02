@@ -25,15 +25,18 @@
                 padding: 14px 20px;
                 text-decoration: none;
             }
-    
-            .nav-links a:hover {
-  
-            }
+
     
             .nav-links .icon {
                 display: none;
                 border: 1px solid rgb(85, 85, 85); /* Adiciona borda */
                 border-radius: 5px; /* Arredonda os cantos */
+                
+                
+            }
+
+            .navbar{
+                display: flex;
             }
     
             @media screen and (max-width: 600px) {
@@ -43,26 +46,25 @@
                     display: block;
                 }
                 .navbar{
-                    display: flex;
+
                     text-align: center;
                 }
+
+                .icon{
+
+                }
+
                 .nav-links{
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    margin: auto;
+
                 }
-                header{
-                    align-items: center;
-                    justify-content: center;
-      
-                }
-                .navbar-links.responsive .logo {
-                display: none; /* Esconde a logo quando o menu está ativo */
-            }
+
+        
             
             .navbar .nav-links.responsive{
-                    display: flex;
+                    display: block;
                     align-items: center;
                     justify-content: center;
                 } 
@@ -83,26 +85,17 @@
                 }
                 .navone{
                         display: block;
-                    }
-                .navbar{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }     
+                    }  
 
                 .navbar .nav-links.navbar-links.responsive{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    display: block;
+                 
                 } 
                 
                 ul{
                     display: block;
                 }
 
-                .navbar .logo{
-                    display: none;
-                }
                 .nav-links .logo{
                     display:flex;
                 }
@@ -111,7 +104,11 @@
                 .nav-links.responsive .logo {
                 display: none; /* Esconde a logo quando o menu está ativo */
             }
+                .nav-links{
+                    display: block;
                 }
+                
+            }
             
         </style>
     
