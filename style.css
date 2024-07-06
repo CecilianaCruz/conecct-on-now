@@ -80,7 +80,7 @@ a:hover:before {
     width: 120px;
     background-color: #0d3d69;
     border-radius: 10px;
-
+    margin-right: 15px;
 }
 
 /*
@@ -95,11 +95,13 @@ a:hover:before {
 .nav-links {
     list-style: none;
     display: flex;
-    margin: auto;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
     width: 100%;
+}
+
+.navbar{
+    justify-content: space-between;
 }
 
 
@@ -120,12 +122,10 @@ a:hover:before {
     text-decoration: none;
     color: #686767;
     font-size: 16px;
-        font-weight: bold;
+    font-weight: bold;
 }
 
-.nav-links li {
-    margin-left: 20px;
-}
+
 
 .nav-links a:hover {
     color: #0d3d69;
