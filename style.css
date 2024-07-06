@@ -1,5 +1,4 @@
 
-
 .custhr{
     border: none;
     background-color: #d4d4d4;
@@ -14,29 +13,28 @@ hr{
     height: 0.2px;
 }
 
-.nav-links .logo{
-    display: none;
-}
-
-.navone button{
-    display: none;
-}
-
 .nav-links{
     font-family: Arial, Helvetica, sans-serif;
     color: #686767;
     overflow: hidden;
+    display: flex;
 }
 /**/
 .navbar{
     display: flex;
     align-items: center;
     padding: 0 25px;
+    justify-content: center;
 }
 
 .navone{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+
 
 
 .nav-links button{
@@ -51,6 +49,7 @@ hr{
     width: 65px;
     font-size: 15px;
     transition: 0.5s;
+
 }
 
 
@@ -78,28 +77,43 @@ a:hover:before {
 
 .logo{
     height: 60px;
-    width: 60px;
+    width: 120px;
     background-color: #0d3d69;
-    border-radius: 100%;
+    border-radius: 10px;
+
 }
 
+/*
 .nomelogo{
     margin-left: 70PX;
     font-family: arial black;
     color: #6b6d6b;
     font-size: 20px;
-}
+}*/
 
 
 .nav-links {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
     margin: auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+
+.texto h1{
+    color: #0d3d69;
+    font-size: 55px;
+    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto h1 span{
+    color:  #1484ec;
+    font-family: sarifada;
+    font-size: 65px;
 }
 
 .nav-links a {

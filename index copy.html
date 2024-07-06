@@ -14,6 +14,9 @@
     <style>
 
     
+            .nav-links {
+                overflow: hidden;
+            }
     
             .nav-links a {
                 float: left;
@@ -21,11 +24,9 @@
                 text-align: center;
                 padding: 14px 20px;
                 text-decoration: none;
-                align-items: center;
-                justify-content: center;
             }
 
-            
+    
             .nav-links .icon {
                 display: none;
                 border: 1px solid rgb(85, 85, 85); /* Adiciona borda */
@@ -54,7 +55,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    text-align: center;
+
                 }
 
         
@@ -92,20 +93,19 @@
                     display: block;
                 }
 
-                .navbar{
-                    display: flex;
-                    justify-content: space-between;
+                .nav-links .logo{
+                    display:flex;
                 }
-                .nav-links{
-                    display: flex;
-                    justify-content: space-between;
-                }
+
+
                 .nav-links.responsive .logo {
                 display: none; /* Esconde a logo quando o menu está ativo */
             }
-
-
-            
+                .nav-links{
+                    display: block;
+                }
+                
+                
             }
             
         </style>
@@ -116,18 +116,19 @@
     <header>
         <hr class="custhr">
         <div class="navbar">
-
+            <div class="logo">
+                <div class="nomelogo"><p>ImpulseHub</p></div>
+            </div>
 
             <ul class="nav-links" id="myNavbar">
-                <div class="logo"></div>
                 <div class="navone">
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Serviços</a></li>
-                <li><a href="#">Quero ser um profissional</a></li>
+                <li><a href="#">Torne-se um profissional</a></li>
                 <li><a href="#">Contatos</a></li>
-                <a href=""><button> Login</button></a>
+                
             </div>
-
+            <a href=""><button> Login</button></a>
                <!-- <li><a href="#">Login</a></li>-->
                <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
                 &#9776; <!-- Ícone de hambúrguer --></a>
@@ -148,13 +149,6 @@
 
 
     <main>
-        <div class="apresentacao">
-        <div class="texto">
-            <h1>Encontre os <span> melhores profissionais</span> em um só lugar</h1>
-        </div>
-
-
-    </div>
 
     </main>
 
