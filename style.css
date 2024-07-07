@@ -105,18 +105,7 @@ a:hover:before {
 }
 
 
-.texto h1{
-    color: #0d3d69;
-    font-size: 55px;
-    max-width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.texto h1 span{
-    color:  #1484ec;
-    font-family: sarifada;
-    font-size: 65px;
-}
 
 .nav-links a {
     text-decoration: none;
@@ -151,5 +140,57 @@ a:hover:before {
     cursor: pointer;
 }
 
+.apresentacao .texto h1{
+    color: #0d3d69;
+    font-size: 55px;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+}
 
+.apresentacao .texto h1 span{
+    color:  #1484ec;
+    font-family: sarifada;
+    font-size: 65px;
+}
 
+.apresentacao .texto p{
+    color: #686767;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    max-width: 600px;
+    margin-left: 80px;
+    font-size: 23px;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apresentacao img{
+    height: 400px;
+    margin-right: 140px;
+}
+
+.profissoes{
+    margin-top: 30px;
+    display: flex;
+}
+
+.profissoes .card{
+    height: 100px;
+    width: 160px;
+    border: 1px solid;
+    border-color: rgb(214, 214, 214);
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    color: #686767;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profissoes .card p{
+    margin-bottom: auto;
+}
