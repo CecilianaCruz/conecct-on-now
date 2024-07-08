@@ -203,8 +203,8 @@ a:hover:before {
 .profissoes .card{
     height: 120px;
     width: 160px;
-    border: 1px solid;
-    border-color: rgb(214, 214, 214);
+   /* border: 1px solid;*/
+  /*  border-color: rgb(214, 214, 214);*/
     background-color: white;
     margin: auto;
     border-radius: 10px;
