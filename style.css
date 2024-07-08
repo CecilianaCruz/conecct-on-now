@@ -36,17 +36,17 @@ hr{
 
 
 .apresentacao .texto button{
-    background-color: white;
+    background-color: #11548f;
     margin-left: 10px;
     border-width: 1PX;
-    border-color: #11548f;
+    border-color: white;
     border-radius: 5px;
     font-family: arial black;
-    color:#11548f   ;
+    color:#ffffff;
     height: 35px;
     width: 300px;
     font-size: 15px;
-    transition: 0.5s;
+    transition: 1s;
     margin-left: 80px;
 }
 
