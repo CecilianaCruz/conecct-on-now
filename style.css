@@ -38,23 +38,23 @@ hr{
 .apresentacao .texto button{
     background-color: #11548f;
     margin-left: 10px;
-    border-width: 1PX;
-    border-color: white;
     border-radius: 5px;
     font-family: arial black;
     color:#ffffff;
-    height: 35px;
+    height: 37px;
     width: 300px;
     font-size: 15px;
-    transition: 1s;
+    transition: 0.5s;
     margin-left: 80px;
 }
 
 .apresentacao .texto button:hover{
-    background-color: #11548f;
-    color: white;
-    border:none;
+    background-color: white;
+    color: #11548f;
+    border-color:#11548f;
     cursor: pointer;
+    border-width: 2px;
+
 }
 
 
