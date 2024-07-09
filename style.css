@@ -36,12 +36,13 @@ hr{
 
 
 .apresentacao .texto button{
-    background-color: #11548f;
+    background-color: #ffffff;
     margin-left: 10px;
     border-radius: 5px;
     font-family: arial black;
-    color:#ffffff;
-    height: 37px;
+    color:#1484ec;
+    height: 45px;
+    border-color: #0d3d69;
     width: 300px;
     font-size: 15px;
     transition: 0.5s;
@@ -50,10 +51,11 @@ hr{
 
 .apresentacao .texto button:hover{
     background-color: white;
-    color: #11548f;
+    color: #1484ec;
     border-color:#11548f;
     cursor: pointer;
     border-width: 2px;
+
 
 }
 
@@ -213,6 +215,12 @@ a:hover:before {
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    cursor: pointer;
+
+
+
 }
 
 .profissoes .card p{
@@ -222,6 +230,11 @@ a:hover:before {
 
 .profissoes .card img{
     border-radius: 100%;
+
+}
+
+.profissoes .card:hover{
+    opacity: 1;
 }
 
 .iconprofissao img{
@@ -243,4 +256,9 @@ a:hover:before {
     align-items: center;
     justify-content: center;
     margin-top: 4%;
+}
+
+
+.apresentacao2{
+
 }
