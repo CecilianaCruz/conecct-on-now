@@ -50,9 +50,8 @@ hr{
 }
 
 .apresentacao .texto button:hover{
-    background-color: white;
-    color: #1484ec;
-    border-color:#11548f;
+    background-color: #0d3d69;
+    color: white;
     cursor: pointer;
     border-width: 2px;
 
@@ -215,7 +214,7 @@ a:hover:before {
     justify-content: center;
     align-items: center;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.6;
     transition: opacity 0.3s;
     cursor: pointer;
 
@@ -260,5 +259,5 @@ a:hover:before {
 
 
 .apresentacao2{
-
+    margin-top: 100px;
 }
