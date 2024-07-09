@@ -196,7 +196,7 @@ a:hover:before {
 }
 
 .profissoes{
-    margin-top: 30px;
+    margin-top: 5px;
     display: flex;
 }
 
@@ -228,6 +228,14 @@ a:hover:before {
     justify-content: center;
     align-items: center;
     margin-top: 8%;
+}
+
+.linha{
+    width: 99%;
+    height: 1px;
+    background-color: #cac8c8;
+    border-width: 2px;
+    margin:auto;
 }
 
 .iconprofissao{
