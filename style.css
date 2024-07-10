@@ -409,9 +409,7 @@ a:hover:before {
     background-color: #0d3d69;
     margin-top: 200px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-
+    align-items: flex-start;
 }
 
 .profiss1 h4{
@@ -447,14 +445,14 @@ a:hover:before {
 .profiss2{
     display: flex;
     margin-top: 150px;
-    margin: auto;
     justify-content: space-between;
-    align-items:;
+    align-items: flex-start;
+
+
 }
 
 .profiss2 .beneficios{
-    margin: auto;
-    align-items: center;
+
     justify-content: space-between;
     text-align: center;
 }
