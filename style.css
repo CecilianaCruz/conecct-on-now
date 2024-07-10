@@ -490,4 +490,9 @@ a:hover:before {
 
 .iconimg{
     position: absolute;
+    margin-left: 75%;
+    margin-top: 18%;
+    height: 300px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
 }
