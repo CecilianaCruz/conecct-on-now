@@ -312,6 +312,9 @@ a:hover:before {
     max-width: 500px;
 }
 
+.clientes{
+    display: flex;
+}
 
 .apresentacao2 h2 strong{
     color: #0d3d69;
