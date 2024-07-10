@@ -108,6 +108,8 @@ a:hover:before {
 
 .logo img{
     height: 80px;
+    cursor: pointer;
+
 }
 
 
@@ -397,20 +399,33 @@ a:hover:before {
     color: #0d3d69;
 }
 
-.profiss{
+.profiss1{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100dvh;
     background-color: #0d3d69;
     margin-top: 400px;
+    text-align: center;
 }
 
-.profiss h4{
+.profiss1 h4{
     color: #1484ec;
+
 }
 
 
-.profiss{
+.profiss1 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 
+}
+
+
+
+.profiss1 span{
+    color:  #1484ec;
+    font-family: sarifada;
+    font-size: 40px;
 }
