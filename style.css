@@ -315,9 +315,9 @@ a:hover:before {
 .clientes{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border:1px solid #e9e6e6;
+    border-width: 2px;
     border-color: #686767;
+    border: 1px solid #686767;
 }
 
 .apresentacao2 h2 strong{
