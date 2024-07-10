@@ -314,6 +314,10 @@ a:hover:before {
 
 .clientes{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid #e9e6e6;
+    border-color: #686767;
 }
 
 .apresentacao2 h2 strong{
