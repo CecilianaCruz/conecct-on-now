@@ -399,6 +399,8 @@ a:hover:before {
     color: #0d3d69;
 }
 
+
+
 .profiss1{
     margin: 0;
     padding: 0;
@@ -407,6 +409,8 @@ a:hover:before {
     background-color: #0d3d69;
     margin-top: 200px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -436,3 +440,21 @@ a:hover:before {
     height: 30px;
 }
 
+.profiss2 p{
+    max-width: 200px;
+}
+
+.profiss2{
+    display: flex;
+    margin-top: 150px;
+    margin: auto;
+    justify-content: space-between;
+    align-items:;
+}
+
+.profiss2 .beneficios{
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
