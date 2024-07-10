@@ -292,7 +292,7 @@ a:hover:before {
 
 .apresentacao2 button{
     margin-top: 25px;
-    height: 70px;
+    height: 50px;
     width: 350px;
     font-size: 17px;
     background-color:#0d3d69;
@@ -305,6 +305,11 @@ a:hover:before {
 
 .apresentacao2 button:hover{
     background-color: #11548f;
+}
+
+
+.clientes p{
+    max-width: 30px;
 }
 
 
