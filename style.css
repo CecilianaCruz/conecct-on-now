@@ -403,17 +403,20 @@ a:hover:before {
 
 .profiss1{
     margin: 0;
-    padding: 0;
-    width: 100%;
+    padding: 20px;
     height: 100dvh;
     background-color: #0d3d69;
     margin-top: 200px;
     text-align: center;
     align-items: flex-start;
+    border-color: #0d3d69;
+    border: 2px solid #0d3d69;
 }
 
 .profiss1 h4{
     color: #1484ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 
 }
 
@@ -455,4 +458,29 @@ a:hover:before {
 
     justify-content: space-between;
     text-align: center;
+}
+
+
+.profiss1 button{
+    background-color:white;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-family: arial black;
+    color:#0d3d69;
+    height: 45px;
+    border: none;
+    border-color: #0d3d69;
+    width: 300px;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-left: 80px;
+}
+
+.profiss1 button:hover{
+    background-color:#13538f;
+    color:white;
+    cursor: pointer;
+    border-width: 2px;
+
+
 }
