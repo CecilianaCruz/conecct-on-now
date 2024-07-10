@@ -36,12 +36,13 @@ hr{
 
 
 .apresentacao .texto button{
-    background-color: #ffffff;
+    background-color:#0d3d69;
     margin-left: 10px;
     border-radius: 5px;
     font-family: arial black;
-    color:#1484ec;
+    color:white;
     height: 45px;
+    border: none;
     border-color: #0d3d69;
     width: 300px;
     font-size: 15px;
@@ -50,7 +51,7 @@ hr{
 }
 
 .apresentacao .texto button:hover{
-    background-color: #0d3d69;
+    background-color: #13538f;
     color: white;
     cursor: pointer;
     border-width: 2px;
@@ -172,6 +173,8 @@ a:hover:before {
     margin-left: 80px;
 }
 
+
+
 .apresentacao .texto h1 span{
     color:  #1484ec;
     font-family: sarifada;
@@ -264,7 +267,50 @@ a:hover:before {
     margin-top: 100px;
 }
 
+.apresentacao2{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.apresentacao2 h2{
+    color: #686767;
+    font-size: 28px;
+}
+
+.apresentacao2 h3{
+    color: #686767;
+}
+
+.apresentacao2 p{
+    max-width: 1000px;
+    margin: auto;
+    font-size: 18px;
+    color: #686767;
+}
+
+.apresentacao2 button{
+    margin-top: 25px;
+    height: 70px;
+    width: 350px;
+    font-size: 17px;
+    background-color:#0d3d69;
+    color:white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.apresentacao2 button:hover{
+    background-color: #11548f;
+}
+
+
+.apresentacao2 h2 strong{
+    color: #0d3d69;
+}
 
 .profiss{
     margin: 0;
