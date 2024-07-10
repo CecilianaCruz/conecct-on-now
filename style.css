@@ -465,7 +465,7 @@ a:hover:before {
 
 
 .profiss1 button{
-    margin-top: 40px;
+    margin-top: 10px;
     background-color:white;
     margin-left: 10px;
     border-radius: 5px;
@@ -491,14 +491,33 @@ a:hover:before {
 
 .iconimg{
     position: absolute;
-    margin-left: 75%;
-    margin-top: 19%;
-    height: 300px;
+    margin-left: 78%;
+    margin-top: 25%;
+    height: 250px;
     opacity: 0.7;
     transition: opacity 0.3s;
 }
 
-footer{
+.finalpage{
     display: flex;
     margin: auto;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.finalpage img{
+    height: 100px;
+    margin-top: 30px;
+    color: #5e5c5c;
+}
+
+.finalpage p, h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.finalpage p:hover{
+    font-weight: bold;
+    color: #0d3d69;
+    cursor: pointer;
 }
