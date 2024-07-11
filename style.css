@@ -577,7 +577,7 @@ a:hover:before {
 }
 
 .missao span{
-    color: #5e5c5c;
+    color: rgb(26, 25, 25);
 }
 
 
@@ -602,7 +602,7 @@ a:hover:before {
 
 .quemsomos1 h2{
     margin-top: 50px;
-    color: #5e5c5c;
+    color: rgb(26, 25, 25);
     font-size: 45px;
     margin: auto;
     text-align: center;
