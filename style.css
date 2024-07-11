@@ -559,7 +559,9 @@ a:hover:before {
     height: 500px;
 }
 
-.sobre{}
+.sobre{
+    margin-top: 30px;
+}
 
 
 .missao{
