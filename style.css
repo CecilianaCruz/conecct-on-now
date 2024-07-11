@@ -512,6 +512,7 @@ a:hover:before {
     color: #5e5c5c;
 }
 
+
 .finalpage p, h4{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -521,3 +522,59 @@ a:hover:before {
     color: #0d3d69;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*QUEMSOMOSQUEMSOMOSQUEMSOMOSQUEMSOMOSQUEMSOMOSQUEMSOMOSQUEMSOMOSQUEMSOMOS*/
+
+
+
+.quemsomos{
+    background-color: #0d3d69;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    .quemsomos h2{
+        font-size: 35px;
+        margin: auto;
+        text-align: center;
+    }
+
+
+.quemsomos2{
+    background-color: #0d3d69;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    font-size: 30px;
+}
+
+.nossahistoria p{
+    background-color: #0d3d69;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    font-size: 30px;
+}
+
