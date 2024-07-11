@@ -404,7 +404,7 @@ a:hover:before {
 
 .profiss1{
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     height: 100dvh;
     background-color: #0d3d69;
     margin-top: 200px;
@@ -465,7 +465,7 @@ a:hover:before {
 
 
 .profiss1 button{
-    margin-top: 10px;
+    margin-top: 2px;
     background-color:white;
     border-radius: 5px;
     font-family: arial black;
