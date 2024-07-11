@@ -670,3 +670,12 @@ a:hover:before {
     display: flex;
 }
 
+.cardvalores P{
+    max-width: 300px;
+    text-align: center;
+}
+
+.cardvalores h3{
+    text-align: center;
+    color:#333333;
+}
