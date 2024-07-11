@@ -678,11 +678,10 @@ a:hover:before {
 .cardvalores1{
     display: flex;
     justify-content: center;
+    margin: auto;
+    align-items: center;
 }
 
-cardvalores1 img{
-    margin: auto;
-}
 
 .cardvalores P{
     max-width: 250px;
@@ -691,6 +690,8 @@ cardvalores1 img{
 
 .cardvalores{
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardvalores h3{
