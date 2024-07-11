@@ -494,7 +494,7 @@ a:hover:before {
     height: 250px;
     opacity: 0.7;
     transition: opacity 0.3s;
-}
+} 
 
 .finalpage{
     display: flex;
