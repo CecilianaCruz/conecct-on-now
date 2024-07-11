@@ -631,3 +631,42 @@ a:hover:before {
     font-size: 21px;
 }
 
+.visao{
+    color:#5e5c5c;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 6%;
+    
+}
+
+.visao p{
+    max-width: 500px;
+}
+
+.visao2{
+    display: flex;
+}
+
+.visao .img1{
+    height: 400px;
+    opacity: 0.2;
+    margin-top: 35px;
+}
+
+.visao .img2{
+    height: 250px;
+    opacity: 0.2;
+    margin-top: 20px;
+}
+
+.visao .img3{
+    height: 100px;
+    opacity: 0.2;
+    margin-top: 10px;
+}
+
+.cardvalores1{
+    display: flex;
+}
+
