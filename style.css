@@ -666,13 +666,31 @@ a:hover:before {
     margin-top: 10px;
 }
 
+
+.valores h2{
+    color: #333333;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .cardvalores1{
     display: flex;
+    justify-content: center;
+}
+
+cardvalores1 img{
+    margin: auto;
 }
 
 .cardvalores P{
-    max-width: 300px;
+    max-width: 250px;
     text-align: center;
+}
+
+.cardvalores{
+    margin: auto;
 }
 
 .cardvalores h3{
