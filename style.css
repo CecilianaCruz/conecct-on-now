@@ -685,6 +685,9 @@ a:hover:before {
     margin-bottom: 80px;
 }
 
+.cardvalores img{
+margin-left: 30%;
+}
 
 .cardvalores P{
     max-width: 250px;
