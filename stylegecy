@@ -37,6 +37,7 @@ h1{
 .boxterap{
     height: 180px;
     width: 170px;
+    background-color: #3c8ccc;
     margin-bottom: 30px;   
     border-radius: 20px;
     text-align: center;
@@ -101,7 +102,7 @@ h2{
 }
 
 .terapiaporassinatura{
-
+    background-color: #3c8ccc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,6 +137,7 @@ h3{
 
 .título{
     width: 100%;
+    background-color: #3c8ccc;
     }
 
 .título h3{
@@ -151,6 +153,9 @@ h3{
 
 }
 
+.conheca{
+    background-color: #3c8ccc;
+}
 
 .botaotwo{
     justify-content: center;
@@ -165,7 +170,9 @@ h3{
 
 }
 
-
+.header{
+    background-color: #3c8ccc;
+}
 
 .título button{
     height: 60px;
@@ -217,7 +224,7 @@ h3{
 
 
 .boxone{
-
+    background-color: #3c8ccc;
     align-items: center; 
     display: flex; 
     margin: auto;
@@ -234,7 +241,7 @@ h3{
 }
 
 .planos{
-
+    background-color: #3c8ccc;
 }
 
 .card h5{

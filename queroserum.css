@@ -1,0 +1,155 @@
+
+.terapiaporassinatura{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.card .textt{
+    text-align: none;
+    align-items: none;
+    justify-content: none;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+.preço strong{
+    font-size: 60px;
+}
+
+
+
+
+
+
+.card:hover{
+    border-color:rgb(37, 74, 145);
+    border-radius: 15px;
+}
+
+
+.planos{
+    background-color: #3c8ccc;
+}
+
+.card h5{
+    align-items: center; text-align: center;
+}
+
+.card p{
+    align-items: center;
+    text-align: center;
+}
+
+.card a{
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.cardbody{
+    border: 1px solid #727475;
+    border-radius: 10px;
+}
+
+
+
+.divcereb img{
+    margin: auto;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.cardd{
+    margin: 20px;
+}
+
+
+
+.about img{
+    height: 400px;
+    margin-left: 20px;
+}
+
+
+
+
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 10px
+    }
+}
+
+
+
+@media screen and (max-width:1020px){
+
+
+    .boxbox{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxtwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .divcereb img{
+        margin-left: none;
+        margin: auto;
+        
+    }
+
+    .boxterap{
+        height: 170px;
+        width: 160px;
+        margin-left: 5%;
+    }   
+    .terapiaporassinatura{
+        display: block;
+        justify-content: center;
+        margin-top: none;
+        margin-bottom: none;
+    }
+    .card{
+        display: block;
+    }
+    .card{
+        width: 300px;
+        margin-top: none;
+    }
+
+
+
+
+}
+
+
+
+/*.imagem, .text, .partetwo, .card .aboutimg .abouttext{
+    visibility: hidden;
+}*/
