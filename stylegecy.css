@@ -1,0 +1,496 @@
+html, body{
+    overflow-x: hidden; 
+}
+
+
+button{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+    height: 45px;
+    color: rgb(65, 128, 128);
+    border: none;
+    transition: transform 1s;
+
+}
+
+button:hover{
+    color: black;
+    height: 47px;
+}
+
+a:hover{
+    color: black;
+}
+
+
+h1{
+    margin-top: 50px;
+    color:  rgb(65, 128, 128);
+    font-size: 50px;
+    display: flax;
+    margin-left: 20px;
+}
+
+
+
+.boxterap{
+    height: 180px;
+    width: 170px;
+    background-color: #3c8ccc;
+    margin-bottom: 30px;   
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.boxbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxtwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    display: inline-block;
+    margin-bottom:  5px;
+}
+
+.partetwo {
+    margin-top: 300px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.texttre{
+    margin-top: 50px;
+}
+
+.partetwo img{
+    height: 450px;
+    border-radius: 10%;
+    margin-right: 90px;
+
+}
+
+.botaotwo a{
+    color: rgb(65, 128, 128);
+}
+
+.botaotwo a:hover{
+    color: black;
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.terapiaporassinatura{
+    background-color: #3c8ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.título a{
+    text-decoration: none;
+}
+
+
+
+h3{
+    margin-bottom: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.card textt{
+    text-align: none;
+    align-items: none;
+    justify-content: none;
+}
+
+
+.título{
+    width: 100%;
+    background-color: #3c8ccc;
+    }
+
+.título h3{
+    margin-left: 30px;
+    font-size: 50px;
+    color: white
+}
+
+.título p{
+    color: black;
+    font-size: 22px;
+    margin-left: 30px;
+
+}
+
+.conheca{
+    background-color: #3c8ccc;
+}
+
+.botaotwo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(65, 128, 128);
+}
+
+.botaoone{
+    align-items: center; 
+    justify-content: center
+
+}
+
+.header{
+    background-color: #3c8ccc;
+}
+
+.título button{
+    height: 60px;
+    width: 60%;
+    border-radius: 13px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+
+}
+
+
+.space{
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.atendimento strong{
+    color:  rgb(65, 128, 128);
+    margin-right: 60px;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+.preço strong{
+    font-size: 60px;
+}
+
+.atendimento p{
+    max-width: 500px;
+    margin-top: 40px;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.imagem img{
+    height: 370px; 
+    border-radius: 25px; 
+    display: flex; 
+    margin: auto; 
+    margin-top: 30px;
+}
+
+
+
+.boxone{
+    background-color: #3c8ccc;
+    align-items: center; 
+    display: flex; 
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card:hover{
+    border-color:rgb(37, 74, 145);
+    border-radius: 15px;
+}
+
+.atendimento p{
+    margin-left: 30px;
+}
+
+.planos{
+    background-color: #3c8ccc;
+}
+
+.card h5{
+    align-items: center; text-align: center;
+}
+
+.card p{
+    align-items: center;
+    text-align: center;
+}
+
+.card a{
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.depoimentos{
+    color:rgb(65, 128, 128);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about{
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.about p{
+    max-width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.tituloo{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+
+}
+
+.tituloo h3{
+    color: rgb(65, 128, 128);
+    font-size: 45px;
+}
+
+.divcereb img{
+    margin: auto;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.cardd{
+    margin: 20px;
+}
+
+.pagonecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.about img{
+    height: 400px;
+    margin-left: 20px;
+}
+
+.pagonecard img{
+    height: 176px;
+    width: 305px;
+    transition: transform 1s;
+}
+
+
+.pagonecard img:hover{
+    transform: scale(1.2);
+}
+
+.botaoone button{
+    position: relative;
+    animation: flutuar 0.35s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 10px
+    }
+}
+
+
+
+@media screen and (max-width:1020px){
+    .boxone{
+        display:block;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .imagem img{
+        height: 290px;
+    }
+
+
+    h2{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .boxbox{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxtwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .título p{
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+
+    .divcereb img{
+        margin-left: none;
+        margin: auto;
+        
+    }
+
+    .boxterap{
+        height: 170px;
+        width: 160px;
+        margin-left: 5%;
+    }   
+    .terapiaporassinatura{
+        display: block;
+        justify-content: center;
+        margin-top: none;
+        margin-bottom: none;
+    }
+    .card{
+        display: block;
+    }
+
+    .título h3{
+        font-size: 35px;
+        
+    }
+
+    .título{
+        margin-left: none;
+    }
+
+    .card{
+        width: 300px;
+        margin-top: none;
+    }
+
+    .atendimento{
+        margin-left: none;
+    }
+    
+    .atendimento p{
+        margin-left: none;
+    }
+
+    .partetwo{
+        display: block;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .about p{
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .imgatend{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partetwo p{
+        text-align: justify;
+        max-width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partetwo h1{
+        margin-left: 20px;
+    }
+
+    .partetwo img{
+        height: 300px; 
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .divcereb h2{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .about{
+        display: block;
+        max-width: 400px;
+        text-align: center;
+    }
+    .botaotwo button{
+        width: 400px;
+    }
+    .aboutimg img{
+        height: 300px;
+    }
+    .título button{
+        width: 90%;
+        height: 100px;
+    }
+}
+
+
+
+/*.imagem, .text, .partetwo, .card .aboutimg .abouttext{
+    visibility: hidden;
+}*/
