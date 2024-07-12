@@ -585,11 +585,13 @@ a:hover:before {
 
 
 .missao .img1{
-    height: 100px;
-    opacity: 0.2;
+    height: 250px;
+    opacity: 1.0;
     margin-top: 35px;
+    margin-left: 20px;
+    margin-left: 20px;
 }
-
+/*
 .missao .img2{
     height: 150px;
     opacity: 0.2;
@@ -600,7 +602,7 @@ a:hover:before {
     height: 200px;
     opacity: 0.2;
     margin-top: 55px;
-}
+}*/
 
 .quemsomos1 h2{
     margin-top: 50px;
