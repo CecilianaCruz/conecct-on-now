@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão Vetorial Deslizante</title>
+<link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+
+<h2>Botão Vetorial Deslizante</h2>
+
+<label class="switch" style="display: flex;">
+  <input type="checkbox" id="toggleSwitch" onclick="updatePrice()"><p>plano semestral</p>
+  <span class="slider"></span>
+</label>
+
+<p id="selectedPrice">Preço a pagar: R$100,00</p>
+
+<script>
+function updatePrice() {
+  var toggleSwitch = document.getElementById('toggleSwitch');
+  var selectedPrice = document.getElementById('selectedPrice');
+
+  if (toggleSwitch.checked) {
+    selectedPrice.textContent = "Preço a pagar: R$130,00 x6";
+  } else {
+    selectedPrice.textContent = "Preço a pagar: R$150,00 mensal";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão de Seleção com Redirecionamento</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Botão de Seleção com Redirecionamento</h2>
+
+<label class="custom-checkbox">
+  <input type="checkbox" id="checkboxButton" onclick="toggleButtonBehavior()">
+  <span class="checkmark"></span>
+  Selecionar para mudar o link abaixo
+</label>
+
+<br><br>
+
+<a id="linkButton" target="_blank" href="https://www.google.com" class="button">Ir para o Google</a>
+
+<script>
+function toggleButtonBehavior() {
+  var checkboxButton = document.getElementById('checkboxButton');
+  var linkButton = document.getElementById('linkButton');
+
+  if (checkboxButton.checked) {
+    linkButton.href = "https://www.youtube.com"; // Altere para o link desejado
+  } else {
+    linkButton.href = "https://www.google.com"; // Link padrão
+  }
+}
+</script>
+
+</body>
+</html>

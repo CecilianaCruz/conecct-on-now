@@ -692,6 +692,8 @@ margin-left: 30%;
 .cardvalores P{
     max-width: 250px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
 }
 
 .cardvalores{
@@ -703,6 +705,8 @@ margin-left: 30%;
 .cardvalores h3{
     text-align: center;
     color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px
 }
 
 .valores{
