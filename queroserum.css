@@ -3,7 +3,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left!important;
     width: 100%;
 }
 
@@ -12,16 +12,15 @@
 .card{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left!important;
     margin: auto;
     margin-top: 20px;
 
 }
 
 .card .textt{
-    text-align: none;
-    align-items: none;
-    justify-content: none;
+    justify-content: left!important;
+    margin-left: 20px;
 }
 
 .card-title{
@@ -30,6 +29,11 @@
 
 .preço strong{
     font-size: 60px;
+}
+
+.preço p{
+    justify-content: left!important;
+    margin-left: 30px;
 }
 
 
@@ -53,7 +57,7 @@
 
 .card p{
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .card a{
@@ -63,7 +67,7 @@
 }
 
 .cardbody{
-    border: 1px solid #727475;
+    border: 1px solid #0d3d69;
     border-radius: 10px;
 }
 

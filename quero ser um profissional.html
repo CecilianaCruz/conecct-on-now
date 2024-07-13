@@ -8,6 +8,7 @@
     <title>ImpulseHub</title>
     <link rel="icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="queroserum.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--ROLAGEM LENTA DA PÁGINA PLANOS ASSINAR  // 2000 milissegundos (2 segundos) para rolar suavemente-->
 
 
 
@@ -154,21 +155,21 @@
 
       <div class="textoplano">
         <h1>Tudo o que você precisa para impulsionar sua carreira</h1>
-       <h3> Sua página divulgada + Campo de anotações + Agenda integrada</h3>
+       <h3> Divulgação da sua página   + Campos de anotações + Agenda integrada</h3>
 
       <div class="plano">
         <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
           <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
           <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
         </svg>
-       <p>divulgação da sua página profissional</p>
+       <p>Divulgação da sua página profissional</p>
        </div>
        <div class="plano">
         <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
           <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
           <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
         </svg>
-       <p>serviço de mídia paga para ajudar a atrair seus clientes</p>
+       <p>Serviço de mídia paga para ajudar a atrair seus clientes</p>
        </div>
        <div class="plano">
         <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
@@ -182,32 +183,39 @@
           <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
           <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
         </svg>
-       <p>Prontuários/espaço para anotações de seus clientes</p>
+       <p>Prontuários/espaços para anotações de seus clientes</p>
        </div>
        <div class="plano">
         <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
           <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
           <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
         </svg>
-       <p>Limite de profissionais por área/região para aumentar as chances de você ser notado</p>
+       <p>Limite de profissionais por área para aumentar sua visibilidade.</p>
         </div>
         <p>R$<strong>270,00</strong>/mês</p>
 
-       <button>Comece agora</button>
+        <a href="#planos" id="linkparadiv"> <button>Escolher um plano </button></a>
 
       </div>
 <br>
-      <div class="avaliacao">Avaliação google</div>
+     <!-- <div class="avaliacao">Avaliação google</div>-->
 <br>
-        <div class="terapiaporassinatura" id="terapiaforass">
+
+<div class="textoanteriorplano"  id="planos">
+  <p>Explore nossos planos, escolha o que mais atende a sua necessidade e inicie essa jornada com a gente!</p>
+</div>
+
+
+        <div class="terapiaporassinatura">
     
 
 
 
-            <div class="card">
+            <div class="card" style="display: block;">
+              <div class="planpremiun"></div>
                 <div class="cardbody">
-                  <h5 class="card-title">Profissional</h5>
-                  <hr>
+                  <h5 class="card-title">Basic</h5>
+                  <p>Solução ideal para quem precisa divulgar</p>
                   <div class="preço">
                   <p>R$<strong>160</strong>/Mês</p>
             
@@ -217,15 +225,16 @@
                     <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
                     <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
                   </svg>
-                  <p class="card-text" style="margin-left: 8px;"><strong> 2 Consultas</strong> por mês;</p>
+                  <p class="card-text" style="margin-left: 8px;">Divulgação de página personalizada<br> dentro da plataforma;</p>
                 <br>
+                
                 </div>
                 <div class="textt" style="display: flex; align-items: center; justify-content: center;">
                     <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
                       <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
                       <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
                     </svg>
-                    <p class="card-text" style="margin-left: 8px;">Acompanhamento Emocional;</p>
+                    <p class="card-text" style="margin-left: 8px;">Mídia paga(google ads entre outros);</p>
                     <br>
                   </div>
                   <div class="textt" style="display: flex; align-items: center; justify-content: center;">
@@ -233,7 +242,15 @@
                       <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
                       <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
                     </svg>
-                    <p class="card-text" style="margin-left: 8px;">Flexibilidade de Horário.</p>
+                    <p class="card-text" style="margin-left: 8px;">Quantidade limitada de profissionais<br> divulgados para maior visibilidade</p>
+                    <br>
+                  </div>
+                  <div class="textt" style="display: flex; align-items: center; justify-content: center;">
+                    <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                      <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                      <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+                    </svg>
+                    <p class="card-text" style="margin-left: 8px;">Link de página profissional;</p>
                     <br>
                   </div>
                   <p></p>
@@ -241,9 +258,10 @@
                   <p style="font-size: 13px; margin-top: 8px; color: #3c8ccc;">Com esse plano você pagará apenas R$90,00 por consulta.</p>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" style="display: block;">
+                <div class="planpremiun"></div>
                 <div class="cardbody">
-                  <h5 class="card-title">Plus</h5>
+                  <h5 class="card-title">Business</h5>
                   <hr>
                   <div class="preço">
                   <p>R$<strong>180</strong>/Mês</p>
@@ -279,13 +297,13 @@
             
                 </div>
               </div>
-              <div class="card" style="margin-bottom: 50px;">
-                <div class="cardbody">
-                  <p>mais completo</p>
+              <div class="card" style="display: block;">
+                <div class="cardbody" style="border-color: #0d3d69; border: 2px solid #0d3d69;">
+                  <div class="planpremiun2"><p>MAIS POPULAR</p></div>
                   <h5 class="card-title">Premium</h5>
                   <hr>
                   <div class="preço">
-                  <p style="font-size: 15px;">R$<strong>270</strong>/A cada 3 Meses</p>
+                  <p style="font-size: 15px;">R$<strong>270</strong>/mês</p>
                     </div>
                   <div class="textt" style="display: flex; align-items: center; justify-content: center;">
                   <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
@@ -379,7 +397,7 @@
         <div class="profiss1">
           <div class="opa"></div>
           <!--COLOCAR ICONES EM BRANCO TESTE UHU-->
-          <h3>Confira as <span>vantagens</span> e inicie sua jornada com a <span>ImpulseHub</span>:</h3>
+          <h3>Confira as <span>vantagens</span>, escolha um plano e <br> inicie sua jornada com a <span>ImpulseHub</span>:</h3>
           
           <div class="profiss2">
           <div class="beneficios">
@@ -459,6 +477,19 @@
 <p style="margin: auto; text-align: center; margin-top: 20px;">&copy; 2024 ImpulseHub. Todos os direitos reservados. Desenvolvido por <strong>Ceciliana Cruz</strong></p>
 </footer>
     
+
+
+
+<!--ROLAGEM LENTA DA PÁGINA PLANOS ASSINAR-->
+<script>
+  $(document).ready(function(){
+      $("#linkparadiv").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#planos").offset().top
+          }, 500); // 2000 milissegundos (2 segundos) para rolar suavemente
+      });
+  });
+</script>
 
 
     <script>
