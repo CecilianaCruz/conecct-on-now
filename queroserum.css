@@ -100,8 +100,20 @@
 }
 
 
+.textt p{
+    max-width: 300px;
+}
 
+.botaocad{
+    width: 100%;
+    justify-content: space-between;
+}
 
+.card button{
+    height: 40px;
+    width: 300px;
+    justify-content: space-between;
+}
 
 @keyframes flutuar{
     0%{
