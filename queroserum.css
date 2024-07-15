@@ -78,15 +78,13 @@
 .cardbody{
     border: 1px solid #1765ad;
     border-radius: 10px;
-}
-
-
-
-.divcereb img{
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    margin-left: 110px;
-    margin-bottom: 20px;
 }
+
+
+
 
 .cardd{
     margin: 20px;
@@ -104,15 +102,17 @@
     max-width: 300px;
 }
 
-.botaocad{
+.botaocard{
     width: 100%;
-    justify-content: space-between;
+    margin: auto;
 }
 
-.card button{
+.botaocard button{
     height: 40px;
     width: 300px;
-    justify-content: space-between;
+    margin-left: 22px;
+    margin-bottom: 20px;
+
 }
 
 @keyframes flutuar{
