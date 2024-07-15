@@ -19,18 +19,18 @@
 <h2>Escolha uma opção:</h2>
 <form>
     <label class="botao">
-        <input type="radio" name="opcao" value="1" onclick="mostrarValor(100, 'https://www.youtube.com')" checked />
-        Mensal (R$ 100)
+        <input type="radio" name="opcao" value="1" onclick="mostrarValor(160, 'https://www.youtube.com')" checked />
+        Mensal
     </label><br>
     
     <label class="botao">
-        <input type="radio" name="opcao" value="2" onclick="mostrarValor(200, 'https://www.facebook.com')" />
-        Anual (R$ 200)
+        <input type="radio" name="opcao" value="2" onclick="mostrarValor(150, 'https://www.facebook.com')" />
+        Semestral
     </label><br>
     
     <label class="botao">
-        <input type="radio" name="opcao" value="3" onclick="mostrarValor(300, 'https://www.linkedin.com')" />
-        Trienal (R$ 300)
+        <input type="radio" name="opcao" value="3" onclick="mostrarValor(140, 'https://www.linkedin.com')" />
+        Anual
     </label><br>
 </form>
 
@@ -40,13 +40,13 @@
 function mostrarValor(valor, link) {
     const resultadoDiv = document.getElementById('resultado');
     resultadoDiv.innerHTML = `
-        Valor: R$ ${valor} <br>
+        Valor: R$ ${valor}/mês<br>
         <a href="${link}" target="_blank">Ir para o link</a>
     `;
 }
 
 // Chama a função inicialmente para exibir o valor padrão
-mostrarValor(100, 'https://www.youtube.com');
+mostrarValor(160, 'https://www.youtube.com');
 </script>
 
 </body>
