@@ -19,17 +19,17 @@
 <h2>Escolha uma opção:</h2>
 <form>
     <label class="botao">
-        <input type="radio" name="opcao" value="1" onclick="mostrarValor(160, 'https://www.youtube.com')" checked />
+        <input type="radio" name="opcao" value="1" onclick="mostrarValor(160, 'https://www.youtube.com', 'Com esse plano você economizará x')" checked />
         Mensal
     </label><br>
     
     <label class="botao">
-        <input type="radio" name="opcao" value="2" onclick="mostrarValor(150, 'https://www.facebook.com')" />
+        <input type="radio" name="opcao" value="2" onclick="mostrarValor(150, 'https://www.facebook.com', 'Com esse plano você economizará y')" />
         Semestral
     </label><br>
     
     <label class="botao">
-        <input type="radio" name="opcao" value="3" onclick="mostrarValor(140, 'https://www.linkedin.com')" />
+        <input type="radio" name="opcao" value="3" onclick="mostrarValor(140, 'https://www.linkedin.com', 'Com esse plano você economizará z')" />
         Anual
     </label><br>
 </form>
@@ -37,16 +37,17 @@
 <div id="resultado" class="resultado"></div>
 
 <script>
-function mostrarValor(valor, link) {
+function mostrarValor(valor, link, texto) {
     const resultadoDiv = document.getElementById('resultado');
     resultadoDiv.innerHTML = `
         Valor: R$ ${valor}/mês<br>
-        <a href="${link}" target="_blank">Ir para o link</a>
+        <a href="${link}" target="_blank">Ir para o link</a><br>
+        o texto é ${texto}
     `;
 }
 
 // Chama a função inicialmente para exibir o valor padrão
-mostrarValor(160, 'https://www.youtube.com');
+mostrarValor(160, 'https://www.youtube.com', 'Com esse plano você economizará x');
 </script>
 
 </body>
