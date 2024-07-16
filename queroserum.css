@@ -213,3 +213,7 @@
 /*.imagem, .text, .partetwo, .card .aboutimg .abouttext{
     visibility: hidden;
 }*/
+
+.resultado{
+    font-size: 20px;
+}
