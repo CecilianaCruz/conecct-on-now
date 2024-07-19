@@ -12,24 +12,29 @@
             margin-top: 20px;
             font-size: 20px;
         }
+
+        .resultado a{
+            background-color: blue;
+            text-decoration: none;
+            color: black;
+        }
     </style>
 </head>
 <body>
 
-<h2>Escolha uma opção:</h2>
 <form>
     <label class="botao">
-        <input type="radio" name="opcao" value="1" onclick="mostrarValor(160, 'https://www.youtube.com')" checked />
+        <input type="radio" name="opcao" value="1" onclick="mostrarValor(160, 'https://www.youtube.com', '*Valor mensal', '')" checked />
         Mensal
     </label><br>
     
     <label class="botao">
-        <input type="radio" name="opcao" value="2" onclick="mostrarValor(150, 'https://www.facebook.com')" />
+        <input type="radio" name="opcao" value="2" onclick="mostrarValor(143, 'https://www.facebook.com', '*Total: R$ 858,00.',' Com esse plano você economizará R$102,00')" />
         Semestral
     </label><br>
     
     <label class="botao">
-        <input type="radio" name="opcao" value="3" onclick="mostrarValor(140, 'https://www.linkedin.com')" />
+        <input type="radio" name="opcao" value="3" onclick="mostrarValor(140, 'https://www.linkedin.com', '*Total: R$ 1.680,00.', ' Com esse plano você economizará R$240,00')" />
         Anual
     </label><br>
 </form>
@@ -37,16 +42,18 @@
 <div id="resultado" class="resultado"></div>
 
 <script>
-function mostrarValor(valor, link) {
+function mostrarValor(valor, link, texto, text) {
     const resultadoDiv = document.getElementById('resultado');
     resultadoDiv.innerHTML = `
-        Valor: R$ ${valor}/mês<br>
-        <a href="${link}" target="_blank">Ir para o link</a>
+        ${valor}<br>
+        ${texto}<br>
+        ${text}<br>
+        <a href="${link}" target="_blank">Escolher Plano</a><br>
     `;
 }
 
 // Chama a função inicialmente para exibir o valor padrão
-mostrarValor(160, 'https://www.youtube.com');
+mostrarValor(160, 'https://www.youtube.com', 'Valor mensal','');
 </script>
 
 </body>
