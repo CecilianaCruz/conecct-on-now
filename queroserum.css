@@ -111,7 +111,7 @@
     margin: auto;
 }
 
-.botaocard button{
+.botaocard button, .resultado button{
     height: 50px;
     width: 300px;
     margin-left: 22px;
@@ -149,6 +149,25 @@
 .botaocard button:hover{
     background-color: #dbebfc;
 }
+
+.resultado button:hover{
+    background-color: #dbebfc;
+}
+
+
+.economia label{
+    background-color: #65adf1;
+    height: 300px!important;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.economia span{
+    font-weight: bold;
+}
+
+
+
 
 @keyframes flutuar{
     0%{
@@ -217,3 +236,4 @@
 .resultado{
     font-size: 20px;
 }
+
