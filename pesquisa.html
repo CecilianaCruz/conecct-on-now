@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Profissionais</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos para o container da lista de profissionais */
+#listaProfissionais {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para cada item da lista de profissionais */
+#listaProfissionais li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flex container para alinhar imagem e texto */
+    align-items: center; /* Alinha itens verticalmente no centro */
+}
+
+/* Estilos para a imagem do profissional */
+#listaProfissionais li img {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px;
+    border-radius: 50%; /* Para imagens redondas */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilos para o texto do profissional */
+#listaProfissionais li div {
+    flex: 1; /* Ocupa todo o espaço restante */
+}
+
+#listaProfissionais li h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#listaProfissionais li p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+        /* Estilos para o corpo da página */
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para o container de pesquisa */
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o container de filtros */
+.filter-container {
+    margin-bottom: 20px;
+}
+
+.filter-container label {
+    margin-right: 10px;
+}
+
+.filter-container select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Estilos para a lista de profissionais */
+#listaProfissionais {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaProfissionais li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os filtros */
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-container label {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filter-container select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Estilos para os resultados */
+#listaProfissionais {
+    list-style
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar...">
+        <button id="searchButton">Buscar</button>
+    </div>
+
+    <div class="filter-container">
+        <label for="regionFilter">Região:</label>
+        <select id="regionFilter">
+            <option value="todos">Todos</option>
+            <option value="norte">Norte</option>
+            <option value="sul">Sul</option>
+            <option value="leste">Leste</option>
+            <option value="oeste">Oeste</option>
+        </select>
+
+        <label for="areaFilter">Área de Atuação:</label>
+        <select id="areaFilter">
+            <option value="todos">Todos</option>
+            <option value="saude">Saúde</option>
+            <option value="educacao">Educação</option>
+            <option value="tecnologia">Tecnologia</option>
+            <option value="engenharia">Engenharia</option>
+        </select>
+
+        <label for="specializationFilter">Especialização:</label>
+        <select id="specializationFilter">
+            <option value="todos">Todos</option>
+            <option value="cardiologia">Cardiologia</option>
+            <option value="pediatria">Pediatria</option>
+            <option value="oncologia">Oncologia</option>
+            <option value="ortopedia">Ortopedia</option>
+        </select>
+    </div>
+
+    <ul id="listaProfissionais">
+        <li data-regiao="norte" data-area="saude" data-especializacao="cardiologia">
+            <img src="img/icon.png" alt="Dr. João">
+            <div>
+                <h3>Dr. João</h3>
+                <p>Cardiologista</p>
+            </div>
+        </li>
+        <li data-regiao="sul" data-area="educacao" data-especializacao="pediatria">
+            <img src="dra_maria.jpg" alt="Dra. Maria">
+            <div>
+                <h3>Dra. Maria</h3>
+                <p>Pediatra</p>
+            </div>
+        </li>
+        <li data-regiao="leste" data-area="tecnologia" data-especializacao="engenharia">
+            <img src="eng_carlos.jpg" alt="Eng. Carlos">
+            <div>
+                <h3>Eng. Carlos</h3>
+                <p>Engenheiro Civil</p>
+            </div>
+        </li>
+        <li data-regiao="oeste" data-area="saude" data-especializacao="oncologia">
+            <img src="dra_ana.jpg" alt="Dra. Ana">
+            <div>
+                <h3>Dra. Ana</h3>
+                <p>Oncologista</p>
+            </div>
+        </li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<script src="script.js"></script>
+</body>
+</html>
+<script>
+    // Seleciona os elementos do filtro e da lista de profissionais
+const searchInput = document.getElementById('searchInput');
+const regionFilter = document.getElementById('regionFilter');
+const areaFilter = document.getElementById('areaFilter');
+const specializationFilter = document.getElementById('specializationFilter');
+const listaProfissionais = document.getElementById('listaProfissionais').getElementsByTagName('li');
+
+// Adiciona event listeners para os filtros de região, área e especialização
+regionFilter.addEventListener('change', filtrarProfissionais);
+areaFilter.addEventListener('change', filtrarProfissionais);
+specializationFilter.addEventListener('change', filtrarProfissionais);
+searchInput.addEventListener('input', filtrarProfissionais);
+
+function filtrarProfissionais() {
+    const termoPesquisa = searchInput.value.toLowerCase();
+    const regiaoSelecionada = regionFilter.value;
+    const areaSelecionada = areaFilter.value;
+    const especializacaoSelecionada = specializationFilter.value;
+
+    Array.from(listaProfissionais).forEach(function(profissional) {
+        const regiaoProfissional = profissional.getAttribute('data-regiao');
+        const areaProfissional = profissional.getAttribute('data-area');
+        const especializacaoProfissional = profissional.getAttribute('data-especializacao');
+        const nomeProfissional = profissional.textContent.toLowerCase();
+
+        const correspondePesquisa = nomeProfissional.includes(termoPesquisa) &&
+                                    (regiaoSelecionada === 'todos' || regiaoProfissional === regiaoSelecionada) &&
+                                    (areaSelecionada === 'todos' || areaProfissional === areaSelecionada) &&
+                                    (especializacaoSelecionada === 'todos' || especializacaoProfissional === especializacaoSelecionada);
+
+        if (correspondePesquisa) {
+            profissional.style.display = 'block';
+        } else {
+            profissional.style.display = 'none';
+        }
+    });
+}
+
+
+</script>
