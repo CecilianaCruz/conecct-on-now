@@ -218,11 +218,42 @@
                   <h5 class="card-title">Basic</h5>
                   <p style="max-width: 250px;">Solução ideal para fazer a gestão do seu negócio</p>
                   <div class="preço">
-                  <p>R$<strong>160</strong>/mês*</p>
+
+
+                    <div class="economia2" >
+                      <form>
+                      <p>  <label class="botao">
+                            <input type="radio" name="opcao" value="1" onclick="mostrarValor2(180, 'https://www.youtube.com', '*Total: R$ 180,00')" checked />
+                            Mensal
+                        </label></p>
+                      </div>
+                      <div class="opaopa">
+                      <div class="economia" style="display: flex; align-items: center;">
+                        <p><label class="botao">
+                            <input type="radio" name="opcao" value="2" onclick="mostrarValor2(162, 'https://www.facebook.com', '*Total: R$ 858,00.')" />
+                            Trimestral - <span>Economize R$108,00</span>.</p>
+                        </label>
+                        
+                        </div>
+                      </div>
+                      <div class="opaopa">
+                        <div class="economia" style="display: flex; align-items: center;">
+                          <p><label class="botao">
+                            <input type="radio" name="opcao" value="3" onclick="mostrarValor2(155, 'https://www.linkedin.com', '*Total: R$ 1.680,00.')" />
+                            Semestral - <span>Economize R$300,00</span>.</p>
+                        </label>
+                        
+                        </div>
+                    </form></div>
+
+
+                  <div id="resultado2" class="resultado"></div>
+
+                  <!--<p>R$<strong>160</strong>/mês*</p>
                   <p>*Gasto mensal</p>
                   <div class="botaocard">
                   <button>Escolher plano</button>
-                  </div>
+                  </div>-->
                   <div class="linha"></div>
                     </div>
                   <div class="textt" style="display: flex; align-items: center; justify-content: center;">
@@ -333,6 +364,7 @@
                         
                         </div>
                       </div>
+                      <div class="opaopa">
                         <div class="economia" style="display: flex; align-items: center;">
                           <p><label class="botao">
                             <input type="radio" name="opcao" value="3" onclick="mostrarValor(155, 'https://www.linkedin.com', '*Total: R$ 1.680,00.')" />
@@ -340,7 +372,7 @@
                         </label>
                         
                         </div>
-                    </form>
+                    </form></div>
 
 
                   <div id="resultado" class="resultado"></div>
@@ -441,10 +473,40 @@
                   <h5 class="card-title">Premium</h5>
                   <p style="max-width: 300px; color: #0d3d69;">Gestão e divulgação: a solução mais completa para impulsionar sua carreira</p>
                   <div class="preço">
-                  <p style="font-size: 15px;">R$<strong>270</strong>/mês*</p>
+
+                    <div class="economia2" >
+                      <form>
+                      <p>  <label class="botao">
+                            <input type="radio" name="opcao" value="1" onclick="mostrarValor3(180, 'https://www.youtube.com', '*Total: R$ 180,00')" checked />
+                            Mensal
+                        </label></p>
+                      </div>
+                      <div class="opaopa">
+                      <div class="economia" style="display: flex; align-items: center;">
+                        <p><label class="botao">
+                            <input type="radio" name="opcao" value="2" onclick="mostrarValor3(162, 'https://www.facebook.com', '*Total: R$ 858,00.')" />
+                            Trimestral - <span>Economize R$108,00</span>.</p>
+                        </label>
+                        
+                        </div>
+                      </div>
+                      <div class="opaopa">
+                        <div class="economia" style="display: flex; align-items: center;">
+                          <p><label class="botao">
+                            <input type="radio" name="opcao" value="3" onclick="mostrarValor3(155, 'https://www.linkedin.com', '*Total: R$ 1.680,00.')" />
+                            Semestral - <span>Economize R$300,00</span>.</p>
+                        </label>
+                        
+                        </div>
+                    </form></div>
+
+
+                  <div id="resultado3" class="resultado"></div>
+
+                 <!-- <p style="font-size: 15px;">R$<strong>270</strong>/mês*</p>
                   <p>*Gasto mensal</p>
                   <div class="botaocard2">
-                  <button>Escolher plano</button></div>
+                  <button>Escolher plano</button></div>-->
                   <div class="linha"></div>
                     </div>
                     <div class="textt" style="display: flex; align-items: center; justify-content: center;">
@@ -708,7 +770,39 @@
   }
   
   // Chama a função inicialmente para exibir o valor padrão
-  mostrarValor(180, 'https://www.youtube.com', '*Total R$180,00');
+  mostrarValor(190, 'https://www.youtube.com', '*Total R$180,00');
+  </script>
+
+
+<script>
+  function mostrarValor2(valor, link, texto, text) {
+      const resultado2Div = document.getElementById('resultado2');
+      resultado2Div.innerHTML = `
+       <p>R$ <strong>  ${valor} </strong>/mês<br></p>
+         <p> ${texto}<br></p>
+
+         <a href="${link}" target="_blank"> <button>Escolher Plano<br></button></a>
+      `;
+  }
+  
+  // Chama a função inicialmente para exibir o valor padrão
+  mostrarValor2(180, 'https://www.youtube.com', '*Total R$180,00');
+  </script>
+
+
+<script>
+  function mostrarValor3(valor, link, texto, text) {
+      const resultado2Div = document.getElementById('resultado3');
+      resultado2Div.innerHTML = `
+       <p>R$ <strong>  ${valor} </strong>/mês<br></p>
+         <p> ${texto}<br></p>
+
+         <a href="${link}" target="_blank"> <button>Escolher Plano<br></button></a>
+      `;
+  }
+  
+  // Chama a função inicialmente para exibir o valor padrão
+  mostrarValor3(250, 'https://www.youtube.com', '*Total R$180,00');
   </script>
 
 </body>
