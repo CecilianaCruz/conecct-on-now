@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Profissões</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        #search-input {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #suggestions {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 300px;
+            margin: 0 auto;
+            background-color: white;
+            position: absolute;
+            z-index: 1000;
+        }
+
+        #suggestions div {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #suggestions div:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Encontre sua profissão</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Digite uma profissão..." autocomplete="off">
+            <button type="submit">Pesquisar</button>
+        </form>
+        <div id="suggestions"></div>
+    </div>
+    <script>
+        const professions = [
+            'psicologo',
+            'desenvolvedor',
+            'fisioterapeuta'
+            // Adicione mais profissões conforme necessário
+        ];
+
+        document.getElementById('search-input').addEventListener('input', function() {
+            const input = this.value.toLowerCase();
+            const suggestions = document.getElementById('suggestions');
+            suggestions.innerHTML = '';
+
+            if (input) {
+                const filteredProfessions = professions.filter(profession =>
+                    profession.toLowerCase().startsWith(input)
+                );
+
+                filteredProfessions.forEach(profession => {
+                    const div = document.createElement('div');
+                    div.textContent = profession;
+                    div.addEventListener('click', function() {
+                        document.getElementById('search-input').value = profession;
+                        suggestions.innerHTML = '';
+                    });
+                    suggestions.appendChild(div);
+                });
+            }
+        });
+
+        document.getElementById('search-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const searchQuery = document.getElementById('search-input').value.trim().toLowerCase();
+
+            switch (searchQuery) {
+                case 'psicologo':
+                    window.location.href = 'psicologo.html';
+                    break;
+                case 'desenvolvedor':
+                    window.location.href = 'desenvolvedor.html';
+                    break;
+                case 'fisioterapeuta':
+                    window.location.href = 'fisioterapeuta.html';
+                    break;
+                // Adicione mais casos conforme necessário
+                default:
+                    alert('Profissão não encontrada!');
+            }
+        });
+    </script>
+</body>
+</html>
